@@ -1,0 +1,76 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium' ;
+    text-align: center;
+}
+
+.menu-container{
+    background-color:rgba(163, 30, 190, 0.555);
+    /*color:black;*/
+    text-align: center;
+    padding: 10px;
+}
+
+.menu-header{
+    font-size: 30px;
+    color: rgb(10, 54, 92);
+    padding:10px;
+}
+
+.box-menu{
+    display:none;
+}
+
+.dropbutton{
+    background-color: rgb(137, 104, 180);
+    color:whitesmoke;
+    padding: 10px;
+    font-size: 18px;
+    border-color: black;
+   cursor:context-menu; 
+}
+
+.dropbutton:hover{
+    transform:scale(1.2);
+    background-color:  rgba(104, 40, 187, 0.527);
+}
+
+.drop-content{
+    display:none;
+    position:absolute;
+    background-color: blueviolet;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left:50%;
+    transform: translate(-50%);
+    margin-top:20px;
+
+ 
+}
+
+.drop-content a{
+    color:white;
+    padding: 12px 16px;
+    text-decoration: dashed;
+    display: block;
+   
+
+}
+
+.drop-content a:hover{
+    background-color: rgb(54, 209, 214);
+    color: blueviolet;
+
+}
+/*.drop:hover .drop-content{
+    display:none;
+
+    
+}
+*/
+.box-menu:checked + .drop .drop-content,
+.dropbutton:focus + .drop-content{
+    display:block;
+    text-align: center;
+}
