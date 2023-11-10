@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Balloon</title>
+    <style>
+        #balloon{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+            transition: all 0.3 ease-in-out;
+            cursor: pointer;
+        }
+
+      /*  #balloon:hover{
+            transform: scale(0.95);
+        }*/
+    </style>
+</head>
+
+<body>
+    <div id="balloon" onclick="changeBalloonColorAndSize()"></div>
+    <script>
+        let balloon = document.getElementById('balloon');
+        let currentSize = 200;
+        let maxSize = 420;
+        let colors =['red', 'green', 'blue'];
+        let currentColorIndex = 0;
+
+        function changeBalloonColorAndSize(){
+            currentSize += 10;
+            currentColorIndex = (currentColorIndex + 1) % colors.length;
+
+            if(currentSize > maxSize){
+                currentSize = 200;
+            }
+
+            balloon.style.width = currentSize + 'px';
+            balloon.style.height = currentSize + 'px';
+            balloon.style.backgroundColor = colors[currentColorIndex];
+        }
+
+        balloon.onmouseleave = function(){
+            currentSize = Math.max(200, currentSize - 5);
+            currentColorIndex = (currentColorIndex - 1 + colors.length) % colors.length;
+
+            balloon.style.width = currentSize + 'px';
+            balloon.style.height = currentSize + 'px';
+            balloon.style.backgroundColor = colors[currentColorIndex];
+
+        };
+    </script>
+    
+     
+</body>
+
+</html>

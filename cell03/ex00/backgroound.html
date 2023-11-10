@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Backgroound</title>
+    <link rel="stylesheet" href="backgroound.css">
+</head>
+
+<body>
+ 
+    <button onclick="change_color_background()">Change the background color</button>
+
+    <script>
+        function change_color_background(){
+            //Generar colores aleatorios
+            var randomColor ='rgb(' +
+                Math.floor(Math.random() * 256) + ',' +
+                Math.floor(Math.random() * 256) + ',' +
+                Math.floor(Math.random() * 256) + ')' ;
+            //Aplicar el color al fondo
+            document.body.style.backgroundColor = randomColor;
+            
+        }
+    </script>
+     
+</body>
+
+</html>
