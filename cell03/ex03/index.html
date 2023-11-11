@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+   
+    <title>To Do</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Ajusta la altura según sea necesario */
+            margin: 10;
+        }
+        h1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:palevioletred;
+        }
+        button {
+            margin-top: 10px;
+            text-align: center;
+            background-color: #8f7bfe;
+            border-radius: 50%;
+            width: 60px;
+        }
+        #ft_list{
+            border: 1px solid rgb(10, 10, 199);
+            padding: 10px;
+            margin-top: 10px;
+            display: block;
+            background: linear-gradient(to right, #920e80, #8f7bfe);
+            color: white;
+            min-width:150px;
+            min-height: 100px;
+        }
+
+        .task{
+            cursor: pointer;
+            margin-bottom: 5px;
+        }
+
+        .prompt{
+            display: none;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <h1>To Do List</h1>
+    <div id="ft_list"></div>
+    <button onclick="openPrompt()">New</button>
+    <script src="todo.js"></script>
+</body>
