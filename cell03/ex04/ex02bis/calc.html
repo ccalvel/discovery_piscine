@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+               #calculatorForm{
+            width: 250px;
+            height: 300px;
+            background-color: cadetblue;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+         h2{
+            margin-top: 10px;
+            color: antiquewhite;
+         }
+        #leftOp{
+            width: 120px;
+            height: 30px;
+            background-color: whitesmoke;
+            margin: 5px;
+           
+        }
+        #rightOp{
+            width: 120px;
+            height: 30px;
+            background-color: whitesmoke;
+            margin: 5px;
+        }
+        #operator{
+            margin: 5px;
+        }
+        #submit{
+            margin: 5px;
+            border-radius: 10px;
+            width: 80px;
+            height: 30px;
+        }
+        #result{
+            margin-top: 10px;
+            color:antiquewhite;
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+
+    <form id="calculatorForm">
+        <h2>My Calculator</h2>
+        <input type="text" id="leftOp" placeholder="leftOp" required>
+        
+        <select id="operator" required>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+
+        <input type="text" id="rightOp" placeholder="rightOp" required>
+
+        <input type="button" value="Try me!" id="submit">
+        <p id="result"></p>
+    </form>
+
+    <script>
+        $(document).ready(function () {
+            $('#submit').on('click', function (event) {
+                event.preventDefault();
+
+                const leftOp = parseInt($('#leftOp').val(), 10);
+                const operator = $('#operator').val();
+                const rightOp = parseInt($('#rightOp').val(), 10);
+
+                if (isNaN(leftOp) || isNaN(rightOp) || leftOp < 0 || rightOp < 0) {
+                    alert('Error :(');
+                    $('#result').text("Error :(");
+                    return;
+                }
+
+                let result;
+                switch (operator) {
+                    case '+':
+                        result = leftOp + rightOp;
+                        break;
+                    case '-':
+                        result = leftOp - rightOp;
+                        break;
+                    case '*':
+                        result = leftOp * rightOp;
+                        break;
+                    case '/':
+                        if (rightOp === 0) {
+                            alert("It's over 9000!");
+                            console.log("It's over 9000!");
+                            $('#result').text("It's over 9000!");
+                            return;
+                        }
+                        result = leftOp / rightOp;
+                        break;
+                    case '%':
+                        if (rightOp === 0) {
+                            alert("It's over 9000!");
+                            console.log("It's over 9000!");
+                            $('#result').text("It's over 9000!");
+                            return;
+                        }
+                        result = leftOp % rightOp;
+                        break;
+                    default:
+                        alert('Invalid Operator');
+                        return;
+                }
+
+                console.log('Result:', result);
+                $('#result').text('Result: ' + result);
+                alert('Result: ' + result);
+            });
+
+            window.addEventListener('load', function () {
+                $('#leftOp').val('');
+                $('#operator').val('+');
+                $('#rightOp').val('');
+                $('#result').text('');
+            });
+
+            setInterval(function () {
+                alert('Please, use me...');
+            }, 30000);
+        });
+    </script>
+
+</body>
+
+</html>
+
