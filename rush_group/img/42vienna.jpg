@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      
+    
+
+    <title>42 Vienna | Learn Coding For Free</title>
+
+    <meta name="description" content="The answer is 42">
+
+    <meta property="og:image" content="https://www.42vienna.com/img/42vienna.jpg" />
+    <meta property="og:description" content="Project-based. No teachers. 100% Job Guarantee." />
+    <meta property="og:title" content="42 Vienna | Learn Coding For Free" />
+    <meta property="og:type" content="website" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#22b5b7">
+    <meta name="theme-color" content="#22b5b7">
+
+    
+
+    <script defer data-domain="42vienna.com" src="https://pla.haschek.at/js/script.js"></script>
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c6616b29-9241-4750-b94b-d0fac5fa2b22" data-blockingmode="auto" type="text/javascript"></script>
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KXN4XF7');</script>
+<!-- End Google Tag Manager -->
+  </head>
+
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+
+
+<body>
+
+  <a class="skip-to-content-link" href="#main">
+      Skip to content
+    </a>
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXN4XF7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+    <symbol id="42vienna" viewBox="0 0 247.5767 96.504">
+  <polygon
+    points="75.997 0 50.664 0 0 50.664 0 71.172 50.664 71.172 50.664 96.504 75.997 96.504 75.997 50.664 25.332 50.664 75.997 0" />
+  <polygon points="86.853 25.332 112.186 0 86.853 0 86.853 25.332" />
+  <polygon
+    points="137.518 25.332 137.518 0 112.186 0 112.186 25.332 86.853 50.664 86.853 75.997 112.186 75.997 112.186 50.664 137.518 25.332" />
+  <polygon points="137.518 50.664 112.186 75.997 137.518 75.997 137.518 50.664" />
+  <rect x="161.9946" y="50.7371" width="2" height="25.187" />
+  <path d="M177.3735,56.0055l2.3418,8.542,4.42-8.542h3.4414l-7.2813,13.3428h-2.1211l-4.001-13.3428Z" />
+  <path d="M192.2544,56.0055l-1.6406,13.3428h-3.08l1.6406-13.3428Z" />
+  <path
+    d="M202.2759,58.6061h-4.3613l-.32,2.58h4.2012l-.32,2.6006h-4.2012l-.3593,2.9609h4.4414l-.32,2.6006h-7.4414l1.64-13.3428h7.3623Z" />
+  <path
+    d="M203.6333,69.3483l1.66-13.3428h2.6816l6.1406,8.6817,1.08-8.6817h3.0811l-1.6407,13.3428h-2.6806l-6.1817-8.7217-1.0595,8.7217Z" />
+  <path
+    d="M219.5532,69.3483l1.66-13.3428h2.6816l6.1406,8.6817,1.08-8.6817h3.0811l-1.6406,13.3428h-2.6807l-6.1816-8.7217-1.06,8.7217Z" />
+  <path
+    d="M243.7349,66.8278h-5.041l-1.26,2.52h-3.32l7.041-13.3428h2.8408l3.5811,13.3428h-3.1612Zm-.56-2.36-1.0811-4.7012-2.24,4.7012Z" />
+</symbol>
+
+    <symbol id="facebook" viewBox="0 0 400 400">
+      <path d="M158.66 142.47h-40.57v61.25h40.57v183.73h67.63V203.72h49.29l4.84-61.23h-54.13V117c0-14.62 2.6-20.41 15.08-20.41h39V20h-51.51c-48.61 0-70.2 24.23-70.2 70.65z" fill="currentColor"></path>
+    </symbol>
+    <symbol id="tiktok" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 511 511.9">
+      <path d="M510.95 150.5c-1.2-27.2-5.598-45.898-11.9-62.102-6.5-17.199-16.5-32.597-29.6-45.398-12.802-13-28.302-23.102-45.302-29.5-16.296-6.3-34.898-10.7-62.097-11.898C334.648.3 325.949 0 256.449 0s-78.199.3-105.5 1.5c-27.199 1.2-45.898 5.602-62.097 11.898-17.204 6.5-32.602 16.5-45.403 29.602-13 12.8-23.097 28.3-29.5 45.3-6.3 16.302-10.699 34.9-11.898 62.098C.75 177.801.449 186.5.449 256s.301 78.2 1.5 105.5c1.2 27.2 5.602 45.898 11.903 62.102 6.5 17.199 16.597 32.597 29.597 45.398 12.801 13 28.301 23.102 45.301 29.5 16.3 6.3 34.898 10.7 62.102 11.898 27.296 1.204 36 1.5 105.5 1.5s78.199-.296 105.5-1.5c27.199-1.199 45.898-5.597 62.097-11.898a130.934 130.934 0 0074.903-74.898c6.296-16.301 10.699-34.903 11.898-62.102 1.2-27.3 1.5-36 1.5-105.5s-.102-78.2-1.3-105.5zm-46.098 209c-1.102 25-5.301 38.5-8.801 47.5-8.602 22.3-26.301 40-48.602 48.602-9 3.5-22.597 7.699-47.5 8.796-27 1.204-35.097 1.5-103.398 1.5s-76.5-.296-103.403-1.5c-25-1.097-38.5-5.296-47.5-8.796C94.551 451.5 84.45 445 76.25 436.5c-8.5-8.3-15-18.3-19.102-29.398-3.5-9-7.699-22.602-8.796-47.5-1.204-27-1.5-35.102-1.5-103.403s.296-76.5 1.5-103.398c1.097-25 5.296-38.5 8.796-47.5C61.25 94.199 67.75 84.1 76.352 75.898c8.296-8.5 18.296-15 29.398-19.097 9-3.5 22.602-7.7 47.5-8.801 27-1.2 35.102-1.5 103.398-1.5 68.403 0 76.5.3 103.403 1.5 25 1.102 38.5 5.3 47.5 8.8 11.097 4.098 21.199 10.598 29.398 19.098 8.5 8.301 15 18.301 19.102 29.403 3.5 9 7.699 22.597 8.8 47.5 1.2 27 1.5 35.097 1.5 103.398s-.3 76.301-1.5 103.301zm0 0" data-original="currentColor" class="active-path" data-old_color="currentColor" fill="currentColor"></path>
+      <path d="M256.45 124.5c-72.598 0-131.5 58.898-131.5 131.5s58.902 131.5 131.5 131.5c72.6 0 131.5-58.898 131.5-131.5s-58.9-131.5-131.5-131.5zm0 216.8c-47.098 0-85.302-38.198-85.302-85.3s38.204-85.3 85.301-85.3c47.102 0 85.301 38.198 85.301 85.3s-38.2 85.3-85.3 85.3zm0 0M423.852 119.3c0 16.954-13.747 30.7-30.704 30.7-16.953 0-30.699-13.746-30.699-30.7 0-16.956 13.746-30.698 30.7-30.698 16.956 0 30.703 13.742 30.703 30.699zm0 0" data-original="currentColor" class="active-path" data-old_color="currentColor" fill="currentColor"></path>
+    </symbol>
+    <symbol id="linkedin" viewBox="0 0 400 400">
+      <path data-name="Pfad 182" d="M340.91 37H65a23.63 23.63 0 00-23.9 23.34v277.03A23.65 23.65 0 0065 360.73h275.91a23.71 23.71 0 0024-23.36V60.31a23.68 23.68 0 00-24-23.31zM137.14 312.86h-48V158.35h48zm-24-175.62A27.84 27.84 0 11141 109.39a27.85 27.85 0 01-27.86 27.85zM317 312.86h-48v-75.14c0-17.92-.33-41-24.95-41-25 0-28.83 19.51-28.83 39.66v76.44h-48V158.35h46.06v21.12h.72a50.41 50.41 0 0145.43-24.95c48.63 0 57.61 32 57.61 73.6z" fill="currentColor"></path>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 512 512">
+      <path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z" fill="currentColor"></path>
+    </symbol>
+    <symbol id="youtube" viewBox="0 0 400 400">
+      <path data-name="Pfad 274" d="M390.44 103.14a49.77 49.77 0 00-35.08-35.26c-30.85-8.33-154.77-8.33-154.77-8.33s-123.9 0-154.81 8.33a49.81 49.81 0 00-35 35.26c-8.28 31.11-8.28 96-8.28 96s0 64.9 8.28 96a49.8 49.8 0 0035 35.25c30.9 8.34 154.81 8.34 154.81 8.34s123.92 0 154.81-8.34a49.76 49.76 0 0035-35.25c8.28-31.1 8.28-96 8.28-96s.04-64.89-8.24-96zM160.07 258.05V140.21l103.57 58.91z" fill="currentColor"></path>
+    </symbol>
+  </svg>
+
+  <header>
+    <div class="wrapper">
+      <a href="/" alt="42 Vienna" class="logo">
+        <svg height="50" width="155" fill="currentColor">
+          <use xlink:href="#42vienna"></use>
+        </svg>
+      </a>
+      <nav class="desktop">
+        <ul>
+
+    
+      <li >
+        <a href="/applications/">How to apply</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/curriculum/">Curriculum</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/life-after-42/">Life after 42</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/partners/">Partners</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/about/">About</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/faq/">FAQ</a>
+      </li>
+    
+  
+  
+    <li>
+      <a href="/de/">DE</a>
+    </li>
+  
+
+  
+  
+</ul>
+
+      </nav>
+      <details>
+        <summary>Menu</summary>
+        <nav>
+          <ul>
+
+    
+      <li >
+        <a href="/applications/">How to apply</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/curriculum/">Curriculum</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/life-after-42/">Life after 42</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/partners/">Partners</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/about/">About</a>
+      </li>
+    
+
+    
+      <li >
+        <a href="/faq/">FAQ</a>
+      </li>
+    
+  
+  
+    <li>
+      <a href="/de/">DE</a>
+    </li>
+  
+
+  
+  
+</ul>
+
+        </nav>
+      </details>
+      <a class="apply-button" href="https://apply.42vienna.com/users/sign_up">Apply Now</a>
+
+    </div>
+  </header>
+
+  
+    
+      <div class="wrapper">
+        <div class="banner">
+  <span>Join our <strong>Coding Bootcamp</strong>, November 22 - 26 in Wels and unleash your coding potential.</span>
+  <a class="cta" href="https://www.eventbrite.com/e/740654887707">Reserve your spot!</a>
+</div>
+
+      </div>
+    
+  
+
+  
+
+  
+
+
+<main id="main" class="wrapper home">
+  <div class="aside-container">
+<div class="aside-left">
+<div class="full-slogan">
+<h1>42 Vienna | The Coding School</h1>
+<p>We change education. You change the future.</p>
+</div>
+<p>42 is an international, renowned programming school, which uses the revolutionary approach of Peer-Learning. With no degree requirement, it targets anyone above 18 years old with an ICT talent. 42 is a school with no teachers, no lectures, no fees. Only 100% Coding.</p>
+<a class="cta lightbox" data-youtube-id="ziGaQ2OQiUQ" href="https://www.youtube.com/watch?v=ziGaQ2OQiUQ">
+  <svg height="20" width="20">
+    <use xlink:href="#youtube"></use>
+  </svg>
+  2-minutes introduction video
+</a>
+</div>
+<aside>
+  <h2 id="next-up">Next Up</h2>
+  <h3>Open Days</h3>
+    <ul>
+  <li>
+    <a href="https://www.eventbrite.at/e/746944760887" target="_blank" rel="noopener noreferrer">22 Nov 2023
+      17:30</a>
+    <span data-venue="wels">Project Space Wels</span>
+  </li>
+</ul>
+  <h3>Piscine
+    <small>Selection bootcamps</small>
+  </h3>
+  <ul>
+  <li>8 Jan → 2 Feb 2024
+    <span data-status="ok">
+      apply now!
+    </span>
+  </li>
+  <li>12 Feb → 8 Mar 2024
+    <span data-status="ok">
+      apply now!
+    </span>
+  </li>
+  </ul>
+  <h3>Kickoff
+    <small>Start of studies</small>
+  </h3>
+  <ul>
+    <li>2 Apr 2024
+        <span data-venue="vienna">Campus Vienna</span>
+      </li>
+  </ul>
+</aside>
+</div>
+<h2 id="our-learning-model" tabindex="-1">Our learning model</h2>
+<ul class="gallery learning_model">
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/UPnslsvcni-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/UPnslsvcni-700.jpeg" width="700" height="503"></picture>
+      <h3>Peer Learning</h3>
+      <p>You learn programming by collaborating with other students. Having no teachers, means that projects are evaluated through peer review.</p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/YuGIqxOM-W-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/YuGIqxOM-W-700.jpeg" width="700" height="466"></picture>
+      <h3>Project Based Learning</h3>
+      <p>Learn by doing. The curriculum consists of high quality and up-to-date projects which are constantly innovated by a group of experts.</p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/7_jcfakrYv-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/7_jcfakrYv-700.jpeg" width="700" height="466"></picture>
+      <h3>Real-World Skills</h3>
+      <p>Develop soft skills needed in working life such as adaptability, critical thinking, collaboration and learning to learn.</p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/V0hKDDUYld-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/V0hKDDUYld-700.jpeg" width="700" height="418"></picture>
+      <h3>Gamification</h3>
+      <p>Instead of slaying dragons, you slay projects. You progress through the curriculum with experience points and levels instead of years and semesters.</p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/XpwgtzoSGn-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/XpwgtzoSGn-700.jpeg" width="700" height="466"></picture>
+      <h3>24/7 Accessible Campus</h3>
+      <p>The campus is designed to make connections, learn programming, create music and play games. We believe in the power of co-creation beyond the screen!</p>
+      </li>
+</ul>
+<div class="aside-alone">
+<aside>
+  <h2 id="next-up">Next Up</h2>
+  <h3>Open Days</h3>
+    <ul>
+  <li>
+    <a href="https://www.eventbrite.at/e/746944760887" target="_blank" rel="noopener noreferrer">22 Nov 2023
+      17:30</a>
+    <span data-venue="wels">Project Space Wels</span>
+  </li>
+</ul>
+  <h3>Piscine
+    <small>Selection bootcamps</small>
+  </h3>
+  <ul>
+  <li>8 Jan → 2 Feb 2024
+    <span data-status="ok">
+      apply now!
+    </span>
+  </li>
+  <li>12 Feb → 8 Mar 2024
+    <span data-status="ok">
+      apply now!
+    </span>
+  </li>
+  </ul>
+  <h3>Kickoff
+    <small>Start of studies</small>
+  </h3>
+  <ul>
+    <li>2 Apr 2024
+        <span data-venue="vienna">Campus Vienna</span>
+      </li>
+  </ul>
+</aside>
+</div>
+<div class="split">
+<div class="content">
+<h2 id="how-to-apply" tabindex="-1">How to apply</h2>
+<p>To join 42 Vienna as a student there are 3 important steps in the admission process:</p>
+<ol>
+<li><strong>Online logic games (duration 2h)</strong><br />
+Play two logic games that show us if you are eligible for becoming a 42 student</li>
+<li><strong>Introduction Meeting (duration 1h)</strong><br />
+Meeting online or on campus where we explain the program in detail incl. Q&amp;A</li>
+<li><strong>Piscine (duration 4 weeks)</strong><br />
+4-week selection bootcamp where you learn to code entirely from scratch</li>
+</ol>
+<p><a href="/applications" class="cta">More about Admission</a></p>
+</div>
+<picture><source type="image/webp" srcset="/img/FMdwUyqulX-700.webp 700w" sizes="100vw"><img alt="Person playing a game on his laptop" loading="lazy" decoding="async" src="/img/FMdwUyqulX-700.jpeg" width="700" height="466"></picture>
+</div>
+<h2 id="why-austria%3F-why-vienna%3F" tabindex="-1">Why Austria? Why Vienna?</h2>
+<p>With its location in the heart of Europe, Austria offers magnificent landscapes, cultural diversity and
+an attractive business and innovation location. The federal capital Vienna is even considered the city
+with the highest quality of life worldwide. However, Vienna also offers space for talent as an
+educational location and an ecosystem that creates perspectives and enables personal development.</p>
+<p>42 Vienna offers a unique tech education for coding talents. The programming school stands for
+open access and an innovative educational model - without teachers, without books and without
+fees. Campus 42 Vienna has been offering space for development and networking since October
+2022 and will grow to around 500 students in the next three years. Further locations in Lower Austria
+(Amstetten) and Upper Austria (Wels) are being planned.</p>
+<ul class="gallery campus">
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/_q_GOu6SUR-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/_q_GOu6SUR-700.jpeg" width="700" height="428"></picture>
+      <h3>Campus Vienna</h3>
+      <p></p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/HRzF5CBUZ7-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/HRzF5CBUZ7-700.jpeg" width="700" height="700"></picture>
+      <h3>Computer Clusters</h3>
+      <p></p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/xEeNkqbQXX-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/xEeNkqbQXX-700.jpeg" width="700" height="466"></picture>
+      <h3>Summit Room</h3>
+      <p></p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/nEmcgEFDh5-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/nEmcgEFDh5-700.jpeg" width="700" height="525"></picture>
+      <h3>Gaming Room</h3>
+      <p></p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/yaF_EmWYPG-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/yaF_EmWYPG-700.jpeg" width="700" height="525"></picture>
+      <h3>Chill Room</h3>
+      <p></p>
+      </li>
+</ul>
+<h2 id="studying-in-amstetten-and-wels" tabindex="-1">Studying in Amstetten and Wels</h2>
+<p>After Vienna we are planning to establish further campus locations in Amstetten and Wels. A fully-fledged 42 location requires not only the appropriate infrastructure but also sufficient students on site to be able to implement the learning concept. This requires sufficient time for preparation. However, we already want to offer interested 42 students from these regions the opportunity to complete parts of their studies in so-called “42 Project Spaces”. This means that students do not have to move to Vienna, or only temporarily. This is particularly attractive if you are employed and do not want to give up your environment or your current housing.</p>
+<p>What does this mean in practice:</p>
+<ul>
+<li>Until the opening of the independent campus locations in Amstetten and Wels, all students registered at 42 Vienna.</li>
+<li>Students from the regions can already make full use of the 42 Project Space in Amstetten and Wels.</li>
+<li>It is mandatory to commute to Vienna for evaluations, exams or group projects required by the curriculum.</li>
+<li>Especially at the beginning of your studies, it is also advisable to spend as much time as possible with your peers on campus in Vienna.</li>
+</ul>
+<p>For more information, please contact the 42 Vienna Team!</p>
+<ul class="gallery projectspace">
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/NarCBbYVtB-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/NarCBbYVtB-700.jpeg" width="700" height="525"></picture>
+      <h3>Amstetten</h3>
+      <p></p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/2PXxZewvA5-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/2PXxZewvA5-700.jpeg" width="700" height="466"></picture>
+      <h3></h3>
+      <p></p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/C_IOkdxzrZ-643.webp 643w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/C_IOkdxzrZ-643.jpeg" width="643" height="559"></picture>
+      <h3>Wels (in development)</h3>
+      <p></p>
+      </li>
+  <li class="item">
+      <picture><source type="image/webp" srcset="/img/slFQEYA2u1-700.webp 700w" sizes="100vw"><img alt="" loading="lazy" decoding="async" src="/img/slFQEYA2u1-700.jpeg" width="700" height="486"></picture>
+      <h3></h3>
+      <p></p>
+      </li>
+</ul>
+<h2 id="the-42-network" tabindex="-1">The 42 Network</h2>
+<p>When you become a student at 42 Vienna, you’re part of the 42 Network! Currently, there are 18,000 students, studying at 40+ campuses in 25+ countries all over the world.</p>
+<p><a href="/life-after-42" class="cta">Discover life after 42</a></p>
+<div class="campus-map">
+<picture><source type="image/webp" srcset="/img/1PDhjiip2G-1200.webp 1200w" sizes="100vw"><img alt="42 campuses around the world" loading="lazy" decoding="async" src="/img/1PDhjiip2G-1200.jpeg" width="1200" height="1200"></picture>
+</div>
+
+  
+    <div class="apply-banner">
+  <span>Join <wbr />42 Vienna</span>
+  <span class="desktop">⇉⇉⇉</span>
+  <a class="apply-button" href="https://apply.42vienna.com/users/sign_up">Apply Now</a>
+
+</div>
+
+  
+</main>
+
+
+  <footer>
+    <div class="wrapper">
+
+      <div class="faq">
+        <span>Any questions? <a href="/faq">Read the FAQs!</a>
+        </span>
+        <ul class="social">
+    <li>
+      <a href="https://www.facebook.com/42vienna/" target="_blank" rel="noopener noreferrer">
+        <svg>
+          <use xlink:href="#facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/42vienna/" target="_blank" rel="noopener noreferrer">
+        <svg>
+          <use xlink:href="#instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.tiktok.com/@42vienna" target="_blank" rel="noopener noreferrer">
+        <svg>
+          <use xlink:href="#tiktok"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/channel/UC-3DEerWUnHiwf7aVmM52eA" target="_blank" rel="noopener noreferrer">
+        <svg>
+          <use xlink:href="#youtube"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/school/42vienna/" target="_blank" rel="noopener noreferrer">
+        <svg>
+          <use xlink:href="#linkedin"></use>
+        </svg>
+      </a>
+    </li>
+</ul>
+
+      </div>
+
+      <nav>
+        <ul>
+            <li >
+              <a href="/news">News</a>
+            </li>
+            <li >
+              <a href="/imprint">Imprint</a>
+            </li>
+            <li >
+              <a href="/privacy">Privacy Policy</a>
+            </li>
+        </ul>
+      </nav>
+
+      <div class="logo">
+        <div>
+          <address>
+            <strong>42 Vienna</strong>
+            <br />
+              Muthgasse 26 / 1<sup>st</sup> floor
+              <br />
+              1190 Vienna, Austria
+              <br />
+            <a href="mailto:hello@42vienna.com">hello@42vienna.com</a>
+          </address>
+        </div>
+
+        <svg height="100" width="250">
+          <use xlink:href="#42vienna"></use>
+        </svg>
+      </div>
+
+      <small class="colophon">
+        
+          © 2023 42 Vienna. All rights reserved.
+        </small>
+    </div>
+  </footer>
+
+  
+  
+    <style>
+      .basicLightbox{position:fixed;display:flex;justify-content:center;align-items:center;top:0;left:0;width:100%;height:100vh;background:rgba(0,0,0,.8);opacity:.01;transition:opacity .4s ease;z-index:1000;will-change:opacity}.basicLightbox--visible{opacity:1}.basicLightbox__placeholder{max-width:100%;transform:scale(.9);transition:transform .4s ease;z-index:1;will-change:transform}.basicLightbox__placeholder>iframe:first-child:last-child,.basicLightbox__placeholder>img:first-child:last-child,.basicLightbox__placeholder>video:first-child:last-child{display:block;position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;max-width:95%;max-height:95%}.basicLightbox__placeholder>iframe:first-child:last-child,.basicLightbox__placeholder>video:first-child:last-child{pointer-events:auto}.basicLightbox__placeholder>img:first-child:last-child,.basicLightbox__placeholder>video:first-child:last-child{width:auto;height:auto}.basicLightbox--iframe .basicLightbox__placeholder,.basicLightbox--img .basicLightbox__placeholder,.basicLightbox--video .basicLightbox__placeholder{width:100%;height:100%;pointer-events:none}.basicLightbox--visible .basicLightbox__placeholder{transform:scale(1)}
+    </style>
+  
+  <script>
+  window.embeddedChatbotConfig = {
+    chatbotId: "KdefL4-flCyR-9SwM71KG",
+    domain: www.chatbase.co
+  }
+</script>
+<script
+  src=https://www.chatbase.co/embed.min.js
+  chatbotId="KdefL4-flCyR-9SwM71KG"
+  domain=www.chatbase.co
+  defer></script>
+
+  
+    <script src="/js/basic-lightbox.min.js"></script>
+<script>
+  const lightboxElement = document.querySelector('a.lightbox');
+
+  lightboxElement.onclick = (e) => {
+    e.preventDefault();
+    basicLightbox
+      .create(`<iframe width="560" height="315" src="https://www.youtube.com/embed/${lightboxElement.dataset.youtubeId}" frameborder="0" allowfullscreen></iframe>`)
+      .show();
+  }
+</script>
+
+  
+</body>
+
+
+</html>

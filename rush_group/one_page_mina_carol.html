@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/one_page_mina_carol.css">
+    <title>Members Profile Page</title>
+</head>
+
+<body>
+    
+<!--
+    <div class="home_text">
+        <h1>Members Profile Page</h1>
+        
+        <h2>Carolina Calderon</h2>
+        <button  class="button-link"><a href="one_page.html">Carol</a></button>
+        <h2>Mina Jafari</h2>
+        
+        <button  class="button-link"><a href="one_page_mina.html">Mina</a></button>
+    </div>
+
+-->
+ 
+<div class="container">
+    <div class="text-section">
+        <h1>Members Profile Page</h1>
+        <h2>Carolina Calderon</h2>
+        <button class="button-link"><a href="one_page.html" class="button-link">Carolina Calderon</a></button>
+        <h2>Mina Jafari</h2>
+        <button class="button-link"><a href="one_page_mina.html" class="button-link">Mina Jafari</a></button>
+        <h2>Edith Eckel</h2>
+        <button class="button-link"><a href="#edith_profile" class="button-link">Edith Eckel</a></button>
+    </div>
+    <div class="image-section"></div>
+</div>
+    
+
+
+    
+    <script>
+
+            function createDownloadLink() {
+            // Contenido de logins
+            const loginsContent = "ccaldero\nmijafari\neeckel\n";
+
+            // Crear un Blob con el contenido
+            const blob = new Blob([loginsContent], { type: 'text/plain' });
+
+            // Crear un enlace para descargar el archivo
+            const downloadLink = document.createElement("a");
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = "auteur";
+            downloadLink.textContent = "Download author file";
+            
+            // Asignar un ID al enlace para aplicar estilos CSS
+            downloadLink.id = "downloadLink";
+
+            // Agregar el enlace al cuerpo del documento
+            document.body.appendChild(downloadLink);
+        }
+
+        // Llamar a la función para crear el enlace de descarga
+        createDownloadLink();
+
+
+
+    </script>
+
+
+</body>
+
+</html>

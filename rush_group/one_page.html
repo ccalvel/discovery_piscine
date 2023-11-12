@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/one_page.css">
+    <title>Carolina Calderon</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a class="navbar-brand" href="one_page_mina_carol.html">Home</a>
+            <a class="navbar-brand" href="one_page.html">Home Carol</a>
+
+            <ul class="navbar-links">
+                <li><a href="one_page_profile.html">Profile</a></li>
+                <li><a href="one_page_exp.html">Experience</a></li>
+                <li><a href="one_page_contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="home_text">
+        <h1>Carolina Calderon</h1>
+        <h3>Web Designer</h3>
+    </div>
+
+    
+
+
+    
+    <script>
+
+            function createDownloadLink() {
+            // Contenido de logins
+            const loginsContent = "ccaldero\nmijafari\neeckel\n";
+
+            // Crear un Blob con el contenido
+            const blob = new Blob([loginsContent], { type: 'text/plain' });
+
+            // Crear un enlace para descargar el archivo
+            const downloadLink = document.createElement("a");
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = "auteur";
+            downloadLink.textContent = "Download author file";
+            
+            // Asignar un ID al enlace para aplicar estilos CSS
+            downloadLink.id = "downloadLink";
+
+            // Agregar el enlace al cuerpo del documento
+            document.body.appendChild(downloadLink);
+        }
+
+        // Llamar a la función para crear el enlace de descarga
+        createDownloadLink();
+
+
+
+    </script>
+
+
+</body>
+
+</html>
